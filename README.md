@@ -4,13 +4,21 @@ This is a simple project to learn Svelte and Node /w TypeScript.
 ## Tech Stack
 ### Frontend
 - Svelte
+- Typescript
 - Tailwind CSS
 - Iconoir
 
 ### Backend
 - Node
+- Typescript
 - Express
+- Mongoose
 - Lodash
+- Dotenv
+- Cors
+- Bcrypt
+- Jsonwebtoken
+- Nodemon
 
 ### commun
 - Typescript
@@ -35,7 +43,20 @@ Go in folder `./backend` and install dependencies
 cd backend
 pnpm install
 ```
+Environment variables
+```sh
+cp .env.example .env
+```
+and edit `.env` file
+```sh
+# .env
+APP_URL=http://localhost:<frontend-port> # default: 5173
+PORT=<port>
+```
+
 Run the server
 ```sh
-pnpm start
+pnpm dev
+# or
+pnpm build && pnpm start
 ```
