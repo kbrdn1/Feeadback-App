@@ -4,13 +4,11 @@ This is a simple project to learn Svelte and Node /w TypeScript.
 ## Tech Stack
 ### Frontend
 - Svelte
-- Typescript
 - Tailwind CSS
 - Iconoir
 
 ### Backend
 - Node
-- Typescript
 - Express
 - Mongoose
 - Lodash
@@ -20,7 +18,7 @@ This is a simple project to learn Svelte and Node /w TypeScript.
 - Jsonwebtoken
 - Nodemon
 
-### commun
+### common
 - Typescript
 
 ## Installation
